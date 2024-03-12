@@ -13,7 +13,7 @@ Este es un proyecto que utiliza Angular 13 en el frontend y .NET Core 6.0 en el 
 
 1. Abre el proyecto en la carpeta `backend` con Visual Studio o tu editor de código preferido.
 2. Asegúrate de tener configurada una instancia local de SQL Server o un servidor accesible.
-3. En la carpeta `QuerySql`, ejecuta el script `DBPeople.sql` en tu instancia de SQL Server para crear la base de datos `DBPeople`.
+3. En la carpeta `QuerySql`, ejecuta el script `Query.sql` en tu instancia de SQL Server para crear la base de datos `DBPeople`.
 4. Abre el archivo `appsettings.json` en la raíz del proyecto backend.
 5. En la sección `ConnectionStrings`, modifica el valor de `Server` con el nombre de tu servidor de base de datos. Por ejemplo:
 
