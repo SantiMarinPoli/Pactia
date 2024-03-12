@@ -94,7 +94,7 @@ namespace Pactial.PeopleRecord
             app.UseAuthentication();
             app.UseAuthorization();
 
-            dbcontext.Database.EnsureCreated();
+            //dbcontext.Database.EnsureCreated();
 
             app.UseEndpoints(endpoints =>
             {
