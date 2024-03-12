@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pactial.PeopleRecord.props" />
+</Project>
