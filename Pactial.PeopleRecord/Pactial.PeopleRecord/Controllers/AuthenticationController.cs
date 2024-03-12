@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Pactial.PeopleRecord.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
@@ -32,7 +33,9 @@ namespace Pactial.PeopleRecord.Controllers
 
             var token = new JwtSecurityTokenHandler().WriteToken(Sectoken);
 
-            return Ok(token);
+            Auth auth= new Auth(token);
+
+            return Ok(auth);
         }
     }
 }

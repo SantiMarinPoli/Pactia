@@ -24,7 +24,7 @@ namespace Pactial.PeopleRecord.Controllers
             return peoples.Count != 0 ? Ok(peoples) : BadRequest("Worng display list peoples");
         }
 
-        [HttpGet("PeopleById")]
+        [HttpGet("PeopleById/{*dni}")]
         public IActionResult GeById(string dni)
         {
             People people = _peopleService.GetById(dni);
@@ -46,10 +46,10 @@ namespace Pactial.PeopleRecord.Controllers
             return exito ? Ok(exito) : BadRequest("Wrong update people");
         }
 
-        [HttpDelete("{*id}")]
-        public IActionResult Delete(string id)
+        [HttpDelete("{*guiid}")]
+        public IActionResult Delete(string guiid)
         {
-            bool exito = _peopleService.Delete(id);
+            bool exito = _peopleService.Delete(guiid);
             return exito ? Ok(exito) : BadRequest("Wrong delete people");
         }
     }
