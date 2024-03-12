@@ -12,12 +12,19 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { CreatePeopleComponent } from './view/create-people/create-people.component';
 import { AuthService } from 'src/services/auth.service';
 import { AppRoutingModule } from './app-routing.module';
+import { ListPeopleComponent } from './view/list-people/list-people.component';
+import { NavBarComponent } from './view/nav-bar/nav-bar.component';
+import { HomeComponent } from './view/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreatePeopleComponent
+    CreatePeopleComponent,
+    ListPeopleComponent,
+    NavBarComponent,
+    HomeComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

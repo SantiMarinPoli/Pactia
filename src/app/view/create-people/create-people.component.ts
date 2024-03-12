@@ -55,11 +55,11 @@ export class CreatePeopleComponent implements OnInit {
       this.peopleService.post(data).subscribe(response =>{
         console.log('Datos enviados correctamente: ', response);
   
-        this.newPeople.dni = '';
+        this.newPeople.dni = '';  
         this.newPeople.name = '';
         this.newPeople.lastname = '';
         alert('Persona creado correctamente.');
-        this.router.navigate(['personas']);
+        this.router.navigate(['/personas']);
       }, error => {
         console.error('Error al crear una persona:', error);
         alert('Error: Hay un problema para crear la persona.');
@@ -79,7 +79,7 @@ export class CreatePeopleComponent implements OnInit {
       .subscribe(response => {
         console.log('Persona actualizado con éxito:', response);
         alert('Se actualizo la persona correctamente.');
-        this.router.navigate(['personas']);
+        this.router.navigate(['/personas']);
         // Realizar acciones adicionales después de la actualización, como redireccionar a otra página
       }, error => {
         console.error('Error al actualizar Persona:', error);

@@ -1,0 +1,25 @@
+<h2 style="margin-bottom: 20px;">Registro de Personas</h2>
+
+<table class="employee-table">
+  <thead>
+    <tr>
+      <th>Cédula</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Acción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let people of peoples">
+      <td>{{ people.dni }}</td>
+      <td>{{ people.name }}</td>
+      <td>{{ people.lastname }}</td>
+      <td>
+        <button class="action-button" (click)="abrirModal(people)">Editar</button>
+        <button class="action-button" (click)="DeletePeople(people.guiid)">Borrar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <button class="add-button" mat-raised-button (click)="abrirModal()">Nueva Persona</button>
