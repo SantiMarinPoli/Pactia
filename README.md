@@ -11,7 +11,7 @@ Este es un proyecto que utiliza Angular 13 en el frontend y .NET Core 6.0 en el 
 
 ## Configuración del Backend
 
-1. Abre el proyecto en la carpeta `backend` con Visual Studio o tu editor de código preferido.
+1. Abre el proyecto en la carpeta `Pactial.PeopleRecord` con Visual Studio 2022.
 2. Asegúrate de tener configurada una instancia local de SQL Server o un servidor accesible.
 3. En la carpeta `QuerySql`, ejecuta el script `Query.sql` en tu instancia de SQL Server para crear la base de datos `DBPeople`.
 4. Abre el archivo `appsettings.json` en la raíz del proyecto backend.
@@ -24,7 +24,7 @@ Este es un proyecto que utiliza Angular 13 en el frontend y .NET Core 6.0 en el 
 
 ## Configuración del Frontend
 
-1. Abre la carpeta frontend en tu terminal.
+1. Abre la carpeta Pactial.PeopleRecordFrontend/Patial.PeopleRecord en tu terminal.
 2. Instala las dependencias ejecutando npm install.
 3. Una vez instaladas las dependencias, puedes iniciar la aplicación Angular con el comando ng serve.
 
