@@ -7,7 +7,7 @@ Este es un proyecto que utiliza Angular 13 en el frontend y .NET Core 6.0 en el 
 
 - Node.js: Versión 16.x o superior. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).
 - Angular CLI: Para instalarlo globalmente, ejecuta `npm install -g @angular/cli@13`.
-- .NET Core SDK: Versión 6.0 o superior. Puedes descargarlo desde [dotnet.microsoft.com](https://dotnet.microsoft.com/download).
+- .NET Core SDK: Versión 6.0. Puedes descargarlo desde [dotnet.microsoft.com](https://dotnet.microsoft.com/download).
 
 ## Configuración del Backend
 
