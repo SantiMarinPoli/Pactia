@@ -24,7 +24,7 @@ Este es un proyecto que utiliza Angular 13 en el frontend y .NET Core 6.0 en el 
 
 ## Configuración del Frontend
 
-1. Abre la carpeta `Pactial.PeopleRecordFrontend/Patial.PeopleRecord` en tu terminal.
+1. Selecciona la rama github `frontend` y luego colocar en la carpeta `Pactial.PeopleRecordFrontend/Patial.PeopleRecord`.
 2. Instala las dependencias ejecutando `npm install`.
 3. Una vez instaladas las dependencias, puedes iniciar la aplicación Angular con el comando `ng serve`.
 
